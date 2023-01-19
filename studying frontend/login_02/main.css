@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; /* Tüm sayfaya font */
+}
+.flex{
+    display: flex; /* Yan yana getirmek için */
+}
+.box{
+    width: 50%;
+    height: 100vh; /* içi boş kutu görünsün diye yükseklik verdik*/
+}
+
+.box1{
+    background-color: #CBE4FE;
+}
+
+.box2{
+    background-color: #1F2071;
+}
+
+.container{
+    background-color: white;
+     width: 1250px;
+     height: 750px;
+     border-radius: 25px;
+     display: flex;
+
+
+     /* Alttaki 2 büyük kutudan bağımsız ortalamak için*/
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50% , -50%);
+
+
+}
+
+.common{
+    width: 50%;
+    height:auto;
+}
+.box3{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box4{
+    background-color: #CBE4FE;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.login-area{
+    width:50%;
+    height: auto;
+
+    /* Ortalamak için */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.button-area{
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, .12);
+    display: flex;
+    padding: 10px;
+}
+span{
+    margin: 0 auto;
+}
+
+.line-area{
+    display: flex;
+    margin-top: 15px;
+    color: grey;
+    width: 100%;
+}
+
+hr{
+    /* Çizgi */
+    width: 15%;
+    height: 1px;
+    background-color: grey;
+    margin: auto 0;
+}
+
+.loginForm{
+    margin-top: 40px;
+}
+.formInput{
+    width: 100%;
+    padding: 0 5px;
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, .12);
+    height: 50px;
+    margin-bottom: 15px;
+    border: none;
+    outline: 0;   /* Inputlara tıklandığında oluşan siyah kenarlığı yok eder*/
+}
+
+.chet-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+}
+
+.button{
+    background-color: #090963;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;   /* Farenin işaretini ele çevirerek tıklanabilir olduğunu gösterir */
+}
+
+.finishLine{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    color: grey;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.signUp{
+    margin-left: 5px;
+    color: #090963 ;
+}
+
+.people{
+    position: absolute;
+    bottom: 0;
+}
+
+.text{
+    width: 250px;
+    float: right;
+    text-align: end;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.rightButton{
+    background-color: unset;
+    border: 1px solid #090963;
+    padding: 10px;
+    color: #090963;
+    cursor: pointer; 
+}
+
+.people{
+    /* fotoğrafı en aşağı götürmek için */
+    position: absolute;
+    bottom: 0;
+}

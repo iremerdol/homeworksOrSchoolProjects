@@ -1,0 +1,47 @@
+.box{
+    width: 50%;
+    height: 100vh;
+}
+
+.box1{
+    background-color: antiquewhite;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.container{
+    background-color: rgb(130, 70, 179);
+    width: 1250px;
+    height: 750px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+}
+
+.common{
+    width: 50%;
+    height: auto;
+}
+
+.bıx3{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box4{
+    background-color: rgb(160, 178, 180);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.login-area{
+    width: 100%;
+}
+

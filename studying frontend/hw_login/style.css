@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    position: absolute;  
+    height: 100vh;   
+}
+
+.box1{
+    background-color: #FFCC81;
+    width: 22.5%;
+}
+
+.box2{
+    left: 623px;
+    top: 155px;
+    width: 500px;
+    background-color: white;
+}
+
+/* start: left side of the page */
+.logo{
+    position: absolute;
+    top: 119px;
+    left: 45px;
+}
+
+.textArea{
+    position: absolute;
+    top: 163px;
+    left: 45px;
+}
+.text{
+    font-size: 30px;
+    margin-bottom: -2px;
+    font-weight: 800;
+}
+
+.image{
+    position: absolute;
+    left: 1px;
+    top: 445px;
+}
+/* end: left side of the page */
+
+/* start: login area */
+.heading{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.googleButton{
+    background-color: #3F96D4;
+    border-radius: 5px;
+    padding: 15px 60px 16px 86px;
+    color: white;
+    font-size: 14px;  
+}
+
+.twitterButton{
+    background-color: #F2F2F2;
+    align-items: center;
+    margin: 10px 0 0 10px;
+    padding: 10;
+    border-radius: 5px;
+}
+
+.tw{
+    margin: 10px;
+    align-items: center;
+}
+
+.facebookButton{
+    background-color: #F2F2F2;
+    align-items: center;
+    margin: 10px 0 0 10px;
+    border-radius: 5px;
+}
+
+.fc{
+    margin: 10px;
+}
+/* 1_facebook logolarını nasıl
+üst üste getirebileceğimi çözemedim. Absolute
+diyince background-color gidiyor ve logonun koyu
+olan kısmı üste çıkıyor.
+2_google imgesini mavi kutunun soluna getiremedim
+justify-content denedim ama işe yaramadı. */
+
+.or{
+    
+    margin: 15px 0 auto;
+}
+
+.lineArea{
+    display: flex;
+    margin-top: 15px;
+    color: #CFCFCF;
+    width: 100%;
+}
+
+hr{
+    width: 40%;
+    height: 1px;
+    background-color: #CFCFCF;
+    margin: 25px auto 0;
+}
+
+.nameText{
+    display: flex;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text1{
+    margin-right: auto;
+}
+
+.text2{
+    margin-right: 140px;
+}
+
+.names{
+    display: flex;
+    margin-top: 15px;
+}
+
+.name{
+    width: 44%;
+    background-color: #F2F2F2;
+    height: 55px;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.surname{
+    margin-left: 80px;
+}
+
+.text3{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.emailAddress{
+    width: 100%;
+    height: 55px;
+    background-color: #F2F2F2;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.formInput{
+    font-weight: 400;
+    font-size: 14px;
+    color: #878888;
+    outline: none;
+    border: none;
+    background-color: #F2F2F2;
+}
+/* içerdeki yazının rengini ve fontunu değiştiremedim :D? */
+
+.password{
+    width: 100%;
+    height: 55px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding: 15px 15px 15px 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.policy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text5{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #878888;
+}
+
+.privacy{
+    color: #137ECB;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.fin{
+    display: flex;
+}
+.text6{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.create{
+    width: 40%;
+    height: 55px;
+    background-color: #FF467E;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 15px 36px 16px 43px;
+}
+
+.member{
+    margin: 39px 0 0 60px;
+}
+
+.signUp{
+    margin: 39px 11px;
+    color: #137ECB;
+    text-decoration-line: none;
+}
+
+/* end: login area */
+

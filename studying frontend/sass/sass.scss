@@ -1,0 +1,49 @@
+@import "ekdosya";
+
+kutu{
+    width: 100px;
+    height: 100px;
+    background-color: $title;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    header{
+        .conteiner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $ana-renk;
+            ul{
+                li{
+                    margin: 0 80px;
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+        .boxes{
+
+            .box1{
+                @extend kutu;
+            }
+        }
+    }
+}
+
+@mixin border($gen, $tip, $renk){
+    border-width: $gen;
+    border-style: $tip;
+    border-color: $renk;
+}
+
+.kutularr{
+    @include border(100px, dashed, green);
+    @extend kutu;
+}
